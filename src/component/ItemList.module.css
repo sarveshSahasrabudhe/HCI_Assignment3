@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.itemForm .formControl {
+  margin-bottom: 20px;
+}
+
+.formInput {
+  width: 100%;
+  font-size: 18px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 10px;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #444;
+}
+
+.btnLink {
+  background-color: transparent;
+  color: #333;
+  border: none;
+  cursor: pointer;
+}
+
+.btnClear {
+  width: 100%;
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #d1ecf1; /* Light blue for clear button */
+
+}
+
+.btnClear:hover {
+  background-color: #f1f1f1;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+/* 
+.container {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #ffe5e5; 
+  }
+   */
+  
+.items li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; /* Adjusted for full width within the container */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  background-color: #d4edda; /* Light green for item list */
+
+}
+
+@media (max-width: 500px) {
+  .items li {
+    width: 100%;
+  }
+}
+
+
